@@ -22,10 +22,6 @@ alias s='open -a "Sublime Text"'
 # Open file in atom 'a .' will open directory
 alias a='open -a "Atom"'
 
-# SSH
-alias ssh-on-behalf="ssh -i ~/.ssh/jimbol.pem ubuntu@ec2-54-201-33-194.us-west-2.compute.amazonaws.com"
-alias ssh-dashberry="ssh -i ~/.ssh/jimbol.pem ec2-user@ec2-52-40-39-185.us-west-2.compute.amazonaws.com"
-
 # Dashes
 if [ -f "$HOME/.bash_profile_scripts/.dashes" ]; then
  . "$HOME/.bash_profile_scripts/.dashes"
